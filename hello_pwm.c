@@ -1,8 +1,8 @@
-/**
-i * Copyright (c) 2020 Raspberry Pi (Trading) Ltd.
- *
- * SPDX-License-Identifier: BSD-3-Clause
- */
+/*
+
+(c)2021 Kouhei Ito
+
+*/
 
 // Output PWM signals on pins 0 and 1
 
