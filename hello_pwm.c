@@ -19,7 +19,7 @@ int main() {
     // Find out which PWM slice is connected to GPIO 0 (it's slice 0)
     uint slice_num = pwm_gpio_to_slice_num(3);
 
-    // Set period of 4 cycles (0 to 3 inclusive)
+    // Set period
     pwm_set_wrap(slice_num, 24999);
     pwm_set_clkdiv(slice_num, 100.0);
     // Set channel A output high for one cycle before dropping
