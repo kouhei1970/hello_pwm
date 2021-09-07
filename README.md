@@ -5,13 +5,14 @@ Raspberry Pi PicoでPWM生成　ブラシレスモータやサーボを動作さ
 
 念の為
 
-`export PICO_SDK_PATH=../../pico-dsk`
+`export PICO_SDK_PATH=../../pico-sdk
 
 
 pico-sdkディレクトリがある場所で
 
 ```
 git clone https://github.com/kouhei1970/hello_pwm.git
+cd hello_pwm
 mkdir build
 cd build
 cmake ..
@@ -20,5 +21,5 @@ make
 
 ## 接続
 
-作成中
-
+GP3:Dutyが周期的変化
+GP4：Duty固定
