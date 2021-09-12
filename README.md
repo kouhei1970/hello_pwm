@@ -21,5 +21,5 @@ make
 
 ## 接続
 
-GP3:Dutyが周期的変化
-GP4：Duty固定
+- GP2:Dutyが周期的変化
+- GP3：Duty固定
