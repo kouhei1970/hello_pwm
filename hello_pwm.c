@@ -22,10 +22,12 @@ int main() {
     // Set period
     pwm_set_wrap(slice_num, 24999);
     pwm_set_clkdiv(slice_num, 100.0);
-    // Set channel A output high for one cycle before dropping
+    
+    // Set channel A Duty
     pwm_set_chan_level(slice_num, PWM_CHAN_A, 2315);
-    // Set initial B output high for three cycles before dropping
+    // Set initial B Duty
     pwm_set_chan_level(slice_num, PWM_CHAN_B, 1330);
+    
     // Set the PWM running
     pwm_set_enabled(slice_num, true);
     /// \end::setup_pwm[]
